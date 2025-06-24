@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# Permitir acceso a recursos importantes
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Bloquear acceso a archivos sensibles
+Disallow: /config/
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /vendor/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.env
+Disallow: /composer.json
+Disallow: /package.json
+Disallow: /README.md
+
+# Bloquear archivos de configuración
+Disallow: /*.log$
+Disallow: /*.sql$
+Disallow: /*.bak$
+Disallow: /*.tmp$
+
+# Sitemap
+Sitemap: https://tumenufast.com/sitemap.xml
+
+# Crawl-delay para ser respetuoso con el servidor
+Crawl-delay: 1 

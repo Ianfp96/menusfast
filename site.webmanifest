@@ -1,0 +1,80 @@
+{
+    "name": "Tumenufast - Digitaliza tu Restaurante",
+    "short_name": "Tumenufast",
+    "description": "Plataforma SaaS para digitalizar restaurantes con menús digitales QR y herramientas de gestión",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ff6b6b",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "es",
+    "categories": ["business", "food", "productivity"],
+    "icons": [
+        {
+            "src": "/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshots/desktop.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/screenshots/mobile.png",
+            "sizes": "390x844",
+            "type": "image/png",
+            "form_factor": "narrow"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Registrarse",
+            "short_name": "Registro",
+            "description": "Crear una nueva cuenta de restaurante",
+            "url": "/restaurante/registro.php",
+            "icons": [
+                {
+                    "src": "/icons/register.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Iniciar Sesión",
+            "short_name": "Login",
+            "description": "Acceder a tu cuenta de restaurante",
+            "url": "/restaurante/login.php",
+            "icons": [
+                {
+                    "src": "/icons/login.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ]
+} 

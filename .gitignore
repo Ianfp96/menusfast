@@ -1,0 +1,41 @@
+# Archivos de documentación interna
+SECURITY_IMPROVEMENTS.md
+database_security_updates*.sql
+cleanup_security.php
+
+# Archivos de backup
+*.bak
+*.backup
+*.tmp
+
+# Logs de desarrollo
+logs/*.log
+logs/*.tmp
+
+# Archivos de configuración de desarrollo
+vercel.json
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración local
+config/local.php
+.env
+
+# Archivos de cache
+cache/
+tmp/
+
+# Scripts de limpieza (opcional)
+cleanup_production.sh 
