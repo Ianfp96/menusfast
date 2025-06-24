@@ -10,6 +10,8 @@ date_default_timezone_set('America/Santiago');
 // Obtener el slug del restaurante de la URL
 $request_uri = $_SERVER['REQUEST_URI'];
 $base_path = parse_url(BASE_URL, PHP_URL_PATH);
+// Asegurar que $base_path no sea null
+$base_path = $base_path ?: '';
 $path = trim(str_replace($base_path, '', $request_uri), '/');
 
 // Lógica de redirección mejorada
